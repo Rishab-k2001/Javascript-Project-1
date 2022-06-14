@@ -38,7 +38,7 @@ function rpsGame(yourChoice) {
 
   humanChoice = yourChoice;
   botChoice = numberToChoice(randTorpsInt());
-  humanChoice = yourChoice.id; //.id becz it goona give the id of YOURCHOICE Like rock its id is rock
+  humanChoice = yourChoice.id; //.id becz it goona give the id of YOURCHOICE Like rock its id is rocks
   console.log("Yourchoice :", yourChoice.id);
   console.log("ComputerChoice :", botChoice);
   result = decideWinner(humanChoice, botChoice);
